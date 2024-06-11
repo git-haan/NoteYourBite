@@ -17,7 +17,7 @@ const NoteCard = ({title, date, content, tags, isPinned, onEdit, onDelete, onPin
             <div className="flex items-center justify-between mt-2">
                 <div className="flex items-center gap-2">
                     {tags?.map((tag, index) => (
-                        <span key={index} className="text-[11px] text-slate-800 bg-slate-100 px-1.5 py-0.5 rounded">
+                        <span key={index} className="text-[11px] text-slate-800 bg-slate-100 px-1.5 py-0.5 rounded hidden md:block">
                             # {tag}
                         </span>
                     ))}

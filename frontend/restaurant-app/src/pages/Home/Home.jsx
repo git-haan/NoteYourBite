@@ -138,7 +138,7 @@ const Home = () => {
 
             <div className="container mx-auto px-10">
                 {allNotes.length > 0 ? (
-                    <div className="grid grid-cols-3 gap-4 mt-8">
+                    <div className="grid grid-cols-2 md:grid-cols-3 gap-4 mt-8">
                         {allNotes.map((item) => (
                             <NoteCard 
                                 key={item._id}
@@ -177,7 +177,7 @@ const Home = () => {
                     },
                 }}
                 contentLabel=""
-                className="w-[60%] md:w-[40%] max-h-3/4 bg-white rounded-md mx-auto mt-14 p-5"
+                className="w-[80%] md:w-[40%] max-h-3/4 bg-white rounded-md mx-auto mt-14 p-5"
                 appElement={document.getElementById("root")}
             >
                 <NoteEdit
