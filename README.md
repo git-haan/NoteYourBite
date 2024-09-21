@@ -1,8 +1,8 @@
 # NoteYourBite
 
-NoteYourBite is a full-stack MERN application designed for users to confidently write and share restaurant ratings.
+NoteYourBite is a full-stack MERN application designed for users to confidently write and share restaurant ratings, with easy search navigation and secure authentication.
 
-![Dashboard](implementation/desktop/dashboard.png)
+![Dashboard](implementation/noteYourBite.png)
 
 ## Features
 
